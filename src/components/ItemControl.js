@@ -47,7 +47,7 @@ class ItemControl extends React.Component {
   }
   
   handleChangingSelectedItem = (id) => {
-    const selectedItem = this.props.itemList.filter(item => item.id === id)[0];
+    const selectedItem = this.props.itemList[id];
     this.setState({selectedItem: selectedItem});
   }
 

@@ -6,7 +6,7 @@ import Vinyl from "../img/Vinyl.jpg";
 
 
 const initialState =  {
-  1: {
+  0: {
   name: 'Magic Shirt',
   description: 'A shirt. With the Magic Sword logo on it.',
   price: '$29',
@@ -14,7 +14,7 @@ const initialState =  {
   id: "0",
   path: Shirt
 },
-2: {
+1: {
   name: 'Magic Hoodie',
   description: 'A hoodie. With the Magic Sword logo on it. Also, magic.',
   price: '$49',
@@ -22,7 +22,7 @@ const initialState =  {
   id: "1",
   path: Hoodie
 },
-3: {
+2: {
   name: 'Magic Socks',
   description: 'A rad pair of socks. They have swords on them.',
   price: '$20',
@@ -30,7 +30,7 @@ const initialState =  {
   id: "2",
   path: Socks
 },
-4: {
+3: {
   name: 'Endless Vinyl',
   description: 'Put that music in your ears!',
   price: '$20',
