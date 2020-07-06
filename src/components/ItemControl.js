@@ -79,7 +79,7 @@ class ItemControl extends React.Component {
   }
 
   handleDeletingItem = (id) => {
-    const newItemList = this.state.itemList.filter(item => item.id !== id);
+    const newItemList = this.state.itemList.filter(item => item.id !== id)[0];
     this.setState({
       itemList: newItemList,
       selectedItem: null
